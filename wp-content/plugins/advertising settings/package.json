@@ -1,0 +1,31 @@
+{
+  "name": "Advertisingsettings",
+  "version": "1.0.0",
+  "description": "Gutenberg siderbar for advertising settings",
+  "author": "Yashpal Puri",
+  "license": "GPL-2.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.12.1",
+    "@types/react": "^16.9.55",
+    "@types/wordpress__plugins": "^2.3.7",
+    "@wordpress/scripts": "^9.1.0",
+    "copy-webpack-plugin": "^4.6.0",
+    "cssnext": "^1.8.4",
+    "laravel-mix": "^4.0.14",
+    "laravel-mix-react-typescript-extension": "^1.0.3",
+    "purecss": "^1.0.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.16.1",
+    "sass-loader": "^7.1.0",
+    "source-map": "^0.7.3",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.5"
+  }
+}
